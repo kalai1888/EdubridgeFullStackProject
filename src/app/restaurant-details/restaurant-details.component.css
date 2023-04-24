@@ -1,0 +1,34 @@
+body{
+  background-image: url("C:\Users\kalai\Desktop\AngularProject\RestaurantManagement\src\assets\images\img 3.jpg"); 
+}  
+
+.box {
+  position: absolute;
+  top:65%;
+  left: 50%;
+  bottom: 0.1px;
+  width: 300px;
+   height: min-content;
+  transform: translate(-53%, -50%);
+  width: 35rem;
+  padding: 1.0rem;
+  box-sizing: border-box;
+  background:  #f0044b;
+  border-radius: 20%;
+  border-style: solid;
+  border-color: rgb(10, 247, 235);
+}
+body {
+  margin: 0;
+  padding: 0;
+  /*background: url(https://picsum.photos/2500/1500?image=1041);*/
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+  
+
+  
+  
+  
+  

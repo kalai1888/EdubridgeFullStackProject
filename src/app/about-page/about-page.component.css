@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  sans-serif;
+}
+.about-us{
+  height: 95vh;
+  width: 65%;
+  padding: 90px 0;
+  background:linear-gradient(to right,#dc30eb, #f8eb32 0%, rgb(43, 56, 241) 100%);
+  margin: 14%;
+  margin-top: 3%;
+  border-radius: 15%;
+}
+.pic{
+  height: auto;
+}
+.about{
+  width: 1100px;
+  max-width: 50%;
+  margin: 0 auto;
+}
+.image{
+    width: 100%;
+    top:60px;
+   
+
+}
+h5{
+  color: rgb(141, 10, 113);
+}
+h2{
+  color: rgb(33, 37, 37);
+}

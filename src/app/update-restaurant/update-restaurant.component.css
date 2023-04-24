@@ -1,0 +1,36 @@
+
+  .box {
+    position: absolute;
+    top:75%;
+    left: 50%;
+    bottom: 0.1px;
+    width: 150px;
+     height: min-content;
+    transform: translate(-53%, -50%);
+    width: 35rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    background:  #5e0844;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: rgb(10, 180, 247);
+    
+}
+  
+  body{
+    background-image: url(C:\Users\kalai\Desktop\AngularProject\RestaurantManagement\src\assets\images\images8.jpg);
+  }
+  
+  .box h3 {
+    margin: 0 0 1.875rem;
+    padding: 0;
+    color: #ee12c9;
+    text-align: center;
+  }
+  
+  .box .inputBox {
+    position: relative;
+  
+ 
+    
+  }

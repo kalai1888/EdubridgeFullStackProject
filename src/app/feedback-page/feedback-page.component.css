@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+body{
+	background: #10d3ec;
+	font-family: 'Hind Siliguri', sans-serif;
+	
+}
+.card{
+	width: 400px;
+	border: none;
+	border-radius: 15px;
+	background-color: #10d3ec;
+	border-color: rgb(92, 2, 14);
+	border-style: solid;
+}
+
+.adiv{
+	background: #12fa0a;
+	border-radius: 15px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	font-size: 22px;
+	height: 46px;
+}
+
+.fas{
+	cursor: pointer;
+}
+.fa-chevron-left{
+	color: #d80808;
+}
+
+.form-control{
+	border: none;
+	background: #fcde7c;
+	font-size: 12px;
+}
+.form-control:focus{
+	box-shadow: none;
+	background: #f7ed6a;
+}
+.form-control::placeholder{
+	font-size: 12px;
+	color: #fab68e;
+}
+.btn-primary{
+	background: #0063FF;
+	padding: 4px 0 7px;
+	border: none;
+}
+.btn-primary:focus{
+	box-shadow: none;
+}
+.btn-primary span{
+	font-size: 12px;
+	color: #A6DCFF;
+}
+p.mt-3{
+	font-size: 11px;
+ 	color: #B8B9BD; 
+ 	cursor: pointer;
+}
+.radio:checked ~ span {
+  filter: grayscale(0);
+  
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(C:\Users\kalai\Desktop\AngularProject\RestaurantManagement\src\assets\images\images87.jpg);
+	
+	
+
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: rgb(104, 46, 211);
+}
+h3 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: rgb(124, 11, 39);
+  font-size: 27px;
+  font-weight: bold;
+}
+
+button{
+  font-style: normal;
+  color: #1b1919;
+  background: #f30be0;
+  padding: 4px 0 7px;
+  	border: none;
+	  box-shadow: none;
+	 
+}
+
+h6{
+  color: #1b1919;
+}

@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*background: url(https://picsum.photos/2500/1500?image=1041);*/
+    background-size: cover;
+    font-family: sans-serif;
+  }
+  
+  .box {
+    position: absolute;
+    top:80%;
+    left: 50%;
+    bottom: 0.1px;
+    width: 350px;
+     height: min-content;
+    transform: translate(-53%, -50%);
+    width: 35rem;
+    padding: 1.0rem;
+    box-sizing: border-box;
+  /*  background-image: url("C:\Users\kalai\Desktop\AngularProject\RestaurantManagement\src\assets\images\images (12).jpg"); */
+    border-radius: 20%;
+    color: rgb(15, 14, 14);
+    background-color: aqua;
+    border-style: solid;
+    border-color: rgb(175, 247, 10);
+}
+body{
+  background-image: url(C:\Users\kalai\Desktop\AngularProject\RestaurantManagement\src\assets\images\pexels.jpeg) ;
+}
+  
+  
+  
+  .box h3 {
+    margin: 0 0 1.875rem;
+    padding: 0;
+    color: #ee1431;
+    text-align: center;
+  }
+  
+  .box .inputBox {
+    position: relative;
+  }

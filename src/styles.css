@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url("C:\Users\kalai\Desktop\AngularProject\RestaurantManagement\src\assets\images\fast-food.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    
+    display: grid;
+  /*...  place-items:center;  */
+    text-align: center; 
+    background-size: cover;
+    color:#fff
+
+  }
+  

@@ -1,0 +1,41 @@
+.table{
+    color:#fa0d0d;
+    background-image:  url(C:\Users\kalai\Desktop\AngularProject\RestaurantManagement\src\assets\images\balu.jpg);
+    background-position:repeat;
+}
+h2{
+    color: aqua;
+    font-weight: 600;  
+}
+
+.text-center{
+    color: #111011;
+    font-size: 40px;
+    text-align: center;
+    margin: 100%;
+    width:70px
+}
+.btn {
+    
+    border: 3px solid #ff0251;
+    color: #f2f1f7;
+    transition: .3s;
+    border-radius: 20%;
+    background-color: rgb(114, 4, 90);
+  }
+  .btn:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
+  

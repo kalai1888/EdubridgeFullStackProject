@@ -1,0 +1,42 @@
+<body>
+<div class="box">
+<div class="col-md-6 offset-md-3">
+    <h3> Update Restaurant </h3>
+    <form (ngSubmit) = "onSubmit()">
+
+        <div class="form-group">
+            <label>restaurantName</label>
+            <input type="text" class ="form-control" id = "restaurantName" placeholder="enter the restaurantName"
+                [(ngModel)] = "restaurant.restaurantName" name = "restaurantName" maxlength="15">
+        </div>
+
+        <div class="form-group">
+            <label>ownerName</label>
+            <input type="text" class ="form-control" id = "ownerName" placeholder="enter the ownerName"
+                [(ngModel)] = "restaurant.ownerName" name = "ownerName" maxlength="15">
+        </div>
+
+        <div class="form-group">
+            <label>foodType</label>
+            <input type="text" class ="form-control" id = "foodType" placeholder="enter the foodType"
+                [(ngModel)] = "restaurant.foodType" name = "foodType">
+        </div>
+
+        <div class="form-group">
+            <label>rating</label>
+            <input type="text" class ="form-control" id = "rating" placeholder="enter the rating"
+                [(ngModel)] = "restaurant.rating" name = "rating">
+        </div>
+        <div class="form-group">
+            <label>location</label>
+            <input type="url" class ="form-control" id = "location" placeholder="enter the location"
+                [(ngModel)] = "restaurant.location" name = "location">
+        </div>
+
+
+        <button class = "btn btn-success" type ="submit">Submit</button>
+
+    </form>
+    </div> 
+</div>
+</body>

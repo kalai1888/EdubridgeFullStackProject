@@ -1,0 +1,55 @@
+<h2> Restaurant List</h2>
+
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <div class="list row">
+    <div class="col-md-8">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" name="restaurantName" placeholder="Search by Restaurant" [(ngModel)] = "restaurantName" />
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" (click)="searchByName()" style=" background-color: rgb(115, 241, 224);color: black; border-radius: 20%;">
+                    <i class="fa fa-search"></i>   Search
+                </button>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-outline-primary" type="button" (click)="fetchVegHotel()"  title="veghotels" style=" background-color: rgb(55, 233, 11);color: black; border-radius: 20%;"> Veg Hotel List </button> 
+    <button class="btn btn-outline-primary" type="button" (click)="fetchNonVegHotel()"  title="nonveghotels" style=" background-color: rgb(55, 241, 18);color: black; border-radius: 20%;"> NonVeg Hotel List </button>
+    
+<table class = "table table-striped" border="1">
+    <thead>
+        <tr bgcolor="#fae5ac" style="color:red;" >
+            <th> restaurantName</th>
+            <th> ownerName </th>
+            <th> foodType</th>
+            <th> rating</th>
+            <th> location</th>
+            <th> actions</th>
+        </tr>
+    </thead>
+    <tbody style="color:rgb(22, 22, 21);">
+        <tr *ngFor = "let eachrestaurant of restaurant" >
+         <td> <b>  {{ eachrestaurant.restaurantName }} </b></td>
+            <td><b> {{ eachrestaurant.ownerName}} </b></td>
+            <td><b>{{ eachrestaurant.foodType}}</b></td>
+            <td> <b>{{ eachrestaurant.rating }}</b> </td>
+            <td><a href="{{eachrestaurant.location}}"><i class="fa fa-map-marker" style="font-size:36px"></i>
+            </a></td>
+
+               
+            
+
+            <td>
+                <button (click) = "updateRestaurant(eachrestaurant.hotelId)" class="btn btn-info" title="updatepage"><i class="fa fa-refresh" aria-hidden="true"></i> Update</button>
+                <button (click) = "restaurantDetails(eachrestaurant.hotelId)" class = "btn btn-info" style="margin-left: 10px" title="viewpage"><i class="fa fa-eye" aria-hidden="true"></i> View</button>
+                <button (click) = "confirmDelete(eachrestaurant)" class = "btn btn-danger" style="margin-left: 10px" title="deletepage"><i class="fa fa-trash"></i> Delete</button>
+            </td>
+        </tr>
+        <tr *ngIf="restaurant.length !==0" >
+            <button class="m-3 btn btn-sm btn-danger"   style="margin-left: 45%; background-color: rgb(151, 241, 115);color: black; border-radius: 20%;" (click)="removeAllRes()" title="removeallpage"><i class="fa fa-trash"></i>Remove All</button>
+       </tr>
+       <tr scope="row" *ngIf="restaurant.length === 0">
+        <td colspan="4" class="text-center">No record found</td>
+       </tr>
+    </tbody>
+</table>

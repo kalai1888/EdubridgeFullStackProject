@@ -1,0 +1,24 @@
+h1{
+    background-color: rgb(255, 0, 179);
+    color: rgb(251, 255, 0);
+    text-shadow: 2px 2px red;
+    border-style: solid;
+    border-color: rgb(175, 247, 10);
+}
+.btn {
+    background-color: transparent;
+    border: 3px solid #00d7c3;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #00d7c3;
+  }
+  .btn:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3; 
+  }
+  .logo img{
+    width: 70px;
+    margin-right: 10px;
+    height: 60px;
+}
